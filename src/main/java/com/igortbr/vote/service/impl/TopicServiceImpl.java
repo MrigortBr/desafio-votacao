@@ -8,7 +8,6 @@ import org.springframework.stereotype.Service;
 
 import com.igortbr.vote.dtos.TopicDTO;
 import com.igortbr.vote.enums.TypeStatus;
-import com.igortbr.vote.enums.TypeVote;
 import com.igortbr.vote.exception.CustomException;
 import com.igortbr.vote.exception.ErrorResponse;
 import com.igortbr.vote.model.SessionVote;

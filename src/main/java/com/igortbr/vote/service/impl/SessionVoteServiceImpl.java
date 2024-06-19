@@ -38,11 +38,7 @@ public class SessionVoteServiceImpl implements SessionVoteService{
 
 	@Override
 	public SessionVote findByIdTopic(String id) {
-		try {
-			return repository.findByIdTopic(Long.parseLong(id));
-		} catch (Exception e) {
-			throw new CustomException(ErrorResponse.DATA_INTEGRITY);
-		}
+		return repository.findByIdTopic(Long.parseLong(id));
 	}
 	
 	

@@ -20,6 +20,8 @@ public class ErrorResponse {
 	public static final ErrorResponse DATA_INTEGRITY = new ErrorResponse("Dados fornecidos invalidos ou incompletos", HttpStatus.BAD_REQUEST, "Erro de Violação de Integridade de Dados. Por favor, verifique os dados fornecidos");
 	public static final ErrorResponse USER_UNABLE_TO_VOTE = new ErrorResponse("UNABLE_TO_VOTE", HttpStatus.NOT_FOUND, "O usuario não tem permissão para votar nesse topico.");
 	public static final ErrorResponse SESSION_NOT_OPEN = new ErrorResponse("Topico não aberto", HttpStatus.NOT_FOUND, "Este topico não estão aberto para votações");
-	
+	public static final ErrorResponse NUMBER_FORMAT = new ErrorResponse("Id invalido", HttpStatus.NOT_FOUND, "O id enviado nessa requisição é invalido");
+	public static final ErrorResponse NO_ENDPOINT = new ErrorResponse("Rota Invalida", HttpStatus.NOT_FOUND, "A Rota solicitada não existe.");
+	public static final ErrorResponse NOT_BLANK = new ErrorResponse("Campos vazios", HttpStatus.NOT_FOUND, "Não são permitidos campos vazios.");
 }
 

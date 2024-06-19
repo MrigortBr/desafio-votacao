@@ -8,6 +8,7 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.NotBlank;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
@@ -23,9 +24,11 @@ public class User{
 	private Long id;
 	
     @Column(name = "name", nullable = false)
+    @NotBlank
     private String name;
 
     @Column(name = "cpf", nullable = false)
+    @NotBlank
     private String cpf;
 
 	public User(UserDTO user) {
