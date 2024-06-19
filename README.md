@@ -1,6 +1,5 @@
 # Desafio votação
 [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://github.com/MrigortBr/desafio-votacao/blob/main/LICENSE)![Build Passed](https://img.shields.io/badge/build-passing-brightgreen)
-[![Web Page](https://img.shields.io/badge/Pagina-Web-green)](https://desafio-votacao-vercel-production.up.railway.app/v1/user)
 ## Objetivo
 No cooperativismo, cada associado possui um voto e as decisões são tomadas em assembleias, por votação. Imagine que você deve criar uma solução para dispositivos móveis para gerenciar e participar dessas sessões de votação. Essa solução deve ser executada na nuvem e promover as seguintes funcionalidades através de uma API REST:
 
