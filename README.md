@@ -48,7 +48,7 @@ Para mais detalhes das dependências veja o arquivo [POM.XML](https://github.com
 
 ## Endpoints da API
 Para utilizar de forma mais rapida todos os endpoints basta utilizar a [base](https://github.com/MrigortBr/desafio-votacao/blob/main/Vota%C3%A7%C3%A3o.postman_collection.json) para o [postman](https://www.postman.com/downloads/).
-
+**Obs: A api só recebe requisições com o Content-Type: application/json**
 A API expõe os seguintes endpoints:
 
 ### User
